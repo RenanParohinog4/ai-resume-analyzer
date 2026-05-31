@@ -1,87 +1,155 @@
-# Welcome to React Router!
+# 🤖 AI Resume Analyzer
 
-A modern, production-ready template for building full-stack React applications using React Router.
+An AI-powered resume evaluation platform that analyzes resumes against job descriptions, generates ATS-style feedback, and provides actionable recommendations to improve job application success.
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/remix-run/react-router-templates/tree/main/default)
+## 🚀 Features
 
-## Features
+- 📄 Upload PDF resumes
+- 🖼️ Automatic PDF-to-image conversion
+- 🤖 AI-powered resume analysis
+- 📊 ATS-style resume scoring
+- 🎯 Job-specific feedback based on role descriptions
+- 💡 Resume improvement suggestions
+- 🔍 Keyword optimization recommendations
+- ⚡ Fast and responsive user interface
+- 🔒 Secure file handling
 
-- 🚀 Server-side rendering
-- ⚡️ Hot Module Replacement (HMR)
-- 📦 Asset bundling and optimization
-- 🔄 Data loading and mutations
-- 🔒 TypeScript by default
-- 🎉 TailwindCSS for styling
-- 📖 [React Router docs](https://reactrouter.com/)
+## 📸 Preview
 
-## Getting Started
+### Upload Resume
+Upload a PDF resume along with the target job title and description.
 
-### Installation
+### AI Analysis
+The application evaluates:
+- Resume structure
+- Relevant skills
+- Keyword matching
+- ATS compatibility
+- Experience relevance
+- Areas for improvement
 
-Install the dependencies:
+### Feedback Dashboard
+Receive detailed feedback and recommendations tailored to the job you're applying for.
+
+---
+
+## 🛠️ Tech Stack
+
+### Frontend
+- React
+- React Router
+- TypeScript
+- Tailwind CSS
+
+### AI & Processing
+- Puter AI
+- PDF.js
+- PDF to Image Conversion
+
+### Storage
+- Puter KV Storage
+- Puter File System
+
+---
+
+## 📂 Project Structure
+
+```text
+app/
+├── components/
+├── routes/
+├── lib/
+├── constants/
+├── hooks/
+└── styles/
+```
+
+---
+
+## ⚙️ Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/yourusername/ai-resume-analyzer.git
+```
+
+Navigate into the project:
+
+```bash
+cd ai-resume-analyzer
+```
+
+Install dependencies:
 
 ```bash
 npm install
 ```
 
-### Development
+---
 
-Start the development server with HMR:
+## 🚀 Run Locally
+
+Start the development server:
 
 ```bash
 npm run dev
 ```
 
-Your application will be available at `http://localhost:5173`.
+Open:
 
-## Building for Production
+```text
+http://localhost:5173
+```
 
-Create a production build:
+---
+
+## 🏗️ Build for Production
 
 ```bash
 npm run build
 ```
 
-## Deployment
-
-### Docker Deployment
-
-To build and run using Docker:
+Preview the production build:
 
 ```bash
-docker build -t my-app .
-
-# Run the container
-docker run -p 3000:3000 my-app
+npm run start
 ```
-
-The containerized application can be deployed to any platform that supports Docker, including:
-
-- AWS ECS
-- Google Cloud Run
-- Azure Container Apps
-- Digital Ocean App Platform
-- Fly.io
-- Railway
-
-### DIY Deployment
-
-If you're familiar with deploying Node applications, the built-in app server is production-ready.
-
-Make sure to deploy the output of `npm run build`
-
-```
-├── package.json
-├── package-lock.json (or pnpm-lock.yaml, or bun.lockb)
-├── build/
-│   ├── client/    # Static assets
-│   └── server/    # Server-side code
-```
-
-## Styling
-
-This template comes with [Tailwind CSS](https://tailwindcss.com/) already configured for a simple default starting experience. You can use whatever CSS framework you prefer.
 
 ---
 
-Built with ❤️ using React Router.
+## 💻 How It Works
+
+1. User uploads a PDF resume.
+2. Resume is uploaded to Puter File System.
+3. PDF is converted into an image.
+4. AI analyzes the resume against the provided job description.
+5. Feedback is generated and stored.
+6. Results are displayed in a detailed review page.
+
+---
+
+## 🎯 Future Improvements
+
+- Resume score visualization
+- Multiple resume templates
+- Export feedback to PDF
+- AI-powered resume rewriting
+- Cover letter generation
+- Job matching recommendations
+- User authentication and history
+
+---
+
+## 👨‍💻 Author
+
+**Renan Parohinog**
+
+- Email: renanparohinog17@gmail.com
+- LinkedIn: linkedin.com/in/renanparohinog
+
+---
+
+## 📜 License
+
+This project is licensed under the MIT License.

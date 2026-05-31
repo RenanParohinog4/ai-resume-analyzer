@@ -4,14 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="db3f0977-930b-4f4c-8495-ae3362fef6ea" name="Changes" comment="Resume Feedback Page">
-      <change afterPath="$PROJECT_DIR$/app/components/Accordion.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/components/ScoreBadge.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/components/ScoreGauge.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/components/ATS.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/ATS.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/components/Details.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/Details.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/components/Summary.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/Summary.tsx" afterDir="false" />
+    <list default="true" id="db3f0977-930b-4f4c-8495-ae3362fef6ea" name="Changes" comment="Added resume components page">
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,61 +29,61 @@
 }</component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.0" />
-      <entry key="MS500" value="1.0" />
-      <entry key="S2" value="1.0" />
-      <entry key="S5" value="1.0000000000013645" />
-      <entry key="S10" value="1.0000024901994242" />
-      <entry key="S30" value="1.0584058998453065" />
-      <entry key="S60" value="1.9583829718395585" />
-      <entry key="M2" value="6.352339802170972" />
-      <entry key="M5" value="24.258701350396546" />
-      <entry key="M10" value="50.43879590535957" />
-      <entry key="M15" value="73.50107993510996" />
-      <entry key="M30" value="133.3158825452183" />
-      <entry key="H1" value="230.51493822428313" />
-      <entry key="H2" value="394.21995787372083" />
-      <entry key="H4" value="613.2844389793584" />
-      <entry key="D1" value="1022.2111620163669" />
-      <entry key="W1" value="1132.8990787121838" />
+      <entry key="MS100" value="1.057913169642623" />
+      <entry key="MS500" value="1.646907454718378" />
+      <entry key="S2" value="3.520946518096283" />
+      <entry key="S5" value="5.9812728568339235" />
+      <entry key="S10" value="7.601045010452896" />
+      <entry key="S30" value="9.090876846856817" />
+      <entry key="S60" value="9.530120262215982" />
+      <entry key="M2" value="9.8129242700031" />
+      <entry key="M5" value="13.450668796840276" />
+      <entry key="M10" value="29.239098814527363" />
+      <entry key="M15" value="48.690634525914106" />
+      <entry key="M30" value="106.74905585110434" />
+      <entry key="H1" value="206.3812042319662" />
+      <entry key="H2" value="373.8674022666367" />
+      <entry key="H4" value="599.2032601972003" />
+      <entry key="D1" value="1025.40957885295" />
+      <entry key="W1" value="1141.8191324446827" />
     </decayedCancelled>
     <decayedSelected>
       <entry key="MS100" value="0.0" />
-      <entry key="MS500" value="8.520511000678404E-126" />
-      <entry key="S2" value="5.402769138553572E-32" />
-      <entry key="S5" value="3.1124666572481593E-13" />
-      <entry key="S10" value="5.668989601254453E-7" />
-      <entry key="S30" value="0.012863170328001884" />
-      <entry key="S60" value="0.2279309043902765" />
-      <entry key="M2" value="1.1577413068581015" />
-      <entry key="M5" value="4.4578501264711825" />
-      <entry key="M10" value="9.653291651148432" />
-      <entry key="M15" value="14.210568165351456" />
-      <entry key="M30" value="25.051435831376534" />
-      <entry key="H1" value="40.784727434518025" />
-      <entry key="H2" value="64.7841689318135" />
-      <entry key="H4" value="94.62340617442146" />
-      <entry key="D1" value="146.8770367428744" />
-      <entry key="W1" value="160.5363934816289" />
+      <entry key="MS500" value="0.0" />
+      <entry key="S2" value="3.064625736835888E-157" />
+      <entry key="S5" value="2.4808992128097175E-63" />
+      <entry key="S10" value="5.061250901873847E-32" />
+      <entry key="S30" value="5.7490853478839626E-11" />
+      <entry key="S60" value="1.523802148280712E-5" />
+      <entry key="M2" value="0.009466168104274704" />
+      <entry key="M5" value="0.6518543032814685" />
+      <entry key="M10" value="3.691373280714219" />
+      <entry key="M15" value="7.486631663636634" />
+      <entry key="M30" value="18.183192433431078" />
+      <entry key="H1" value="34.746920481960224" />
+      <entry key="H2" value="59.796844945689415" />
+      <entry key="H4" value="90.90824346858608" />
+      <entry key="D1" value="145.89979561935323" />
+      <entry key="W1" value="160.3833675519367" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.6877709090698718" />
-      <entry key="MS500" value="0.9278734764712827" />
-      <entry key="S2" value="0.9814590638534793" />
-      <entry key="S5" value="0.9925419606827449" />
-      <entry key="S10" value="0.9962669417097413" />
-      <entry key="S30" value="1.0691111540466243" />
-      <entry key="S60" value="2.1770601102303453" />
-      <entry key="M2" value="7.4813255141907575" />
-      <entry key="M5" value="28.653249787116536" />
-      <entry key="M10" value="60.01446011290899" />
-      <entry key="M15" value="87.6314813803412" />
-      <entry key="M30" value="158.2913756286095" />
-      <entry key="H1" value="271.23504039899865" />
-      <entry key="H2" value="458.95103460675074" />
-      <entry key="H4" value="707.8680334329028" />
-      <entry key="D1" value="1169.0776202058535" />
-      <entry key="W1" value="1293.433812610615" />
+      <entry key="MS100" value="1.03420955145196" />
+      <entry key="MS500" value="1.6362445034072222" />
+      <entry key="S2" value="3.5150997138422104" />
+      <entry key="S5" value="5.977120708322296" />
+      <entry key="S10" value="7.598337797142834" />
+      <entry key="S30" value="9.089775618178397" />
+      <entry key="S60" value="9.529554568518218" />
+      <entry key="M2" value="9.82185731983231" />
+      <entry key="M5" value="14.093145597897713" />
+      <entry key="M10" value="32.90072682867802" />
+      <entry key="M15" value="56.13499084451753" />
+      <entry key="M30" value="124.8771060575193" />
+      <entry key="H1" value="241.07305643901472" />
+      <entry key="H2" value="433.615237146563" />
+      <entry key="H4" value="690.0732525067301" />
+      <entry key="D1" value="1171.298865877764" />
+      <entry key="W1" value="1302.2008419346218" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -145,7 +139,7 @@
       <updated>1780129584747</updated>
       <workItem from="1780129585696" duration="12715000" />
       <workItem from="1780203801479" duration="10253000" />
-      <workItem from="1780226466041" duration="5958000" />
+      <workItem from="1780226466041" duration="6340000" />
     </task>
     <task id="LOCAL-00001" summary="Added Authentication">
       <option name="closed" value="true" />
@@ -171,7 +165,15 @@
       <option name="project" value="LOCAL" />
       <updated>1780230864111</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Added resume components page">
+      <option name="closed" value="true" />
+      <created>1780232656430</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1780232656430</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -192,6 +194,7 @@
     <MESSAGE value="Added Authentication" />
     <MESSAGE value="Cloud Storage, PDF-Image conversion, Key Value Storage and Ai Feedback" />
     <MESSAGE value="Resume Feedback Page" />
-    <option name="LAST_COMMIT_MESSAGE" value="Resume Feedback Page" />
+    <MESSAGE value="Added resume components page" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added resume components page" />
   </component>
 </project>
