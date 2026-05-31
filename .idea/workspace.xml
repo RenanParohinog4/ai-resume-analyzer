@@ -4,16 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="db3f0977-930b-4f4c-8495-ae3362fef6ea" name="Changes" comment="Added Authentication">
-      <change afterPath="$PROJECT_DIR$/app/components/FileUploader.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/lib/pdftoImg.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/lib/utils.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/routes/upload.tsx" afterDir="false" />
+    <list default="true" id="db3f0977-930b-4f4c-8495-ae3362fef6ea" name="Changes" comment="Cloud Storage, PDF-Image conversion, Key Value Storage and Ai Feedback">
+      <change afterPath="$PROJECT_DIR$/app/components/ATS.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/components/Details.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/components/Summary.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/routes/resume.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/constants/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app/constants/index.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/routes.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app/routes.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/routes/upload.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/routes/upload.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,60 +36,60 @@
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
       <entry key="MS100" value="1.0" />
-      <entry key="MS500" value="1.0" />
-      <entry key="S2" value="1.0" />
-      <entry key="S5" value="1.0" />
-      <entry key="S10" value="1.0" />
-      <entry key="S30" value="1.0" />
-      <entry key="S60" value="1.0000000014700416" />
-      <entry key="M2" value="1.0001297896366819" />
-      <entry key="M5" value="1.1816735876931121" />
-      <entry key="M10" value="3.8311341390704676" />
-      <entry key="M15" value="8.962766253746166" />
-      <entry key="M30" value="33.62437142717592" />
-      <entry key="H1" value="107.60430948999021" />
-      <entry key="H2" value="253.48241173682783" />
-      <entry key="H4" value="437.91818630136635" />
-      <entry key="D1" value="749.5676895910041" />
-      <entry key="W1" value="828.7967391734719" />
+      <entry key="MS500" value="1.0000000000059917" />
+      <entry key="S2" value="1.0029541603645618" />
+      <entry key="S5" value="1.213651365972535" />
+      <entry key="S10" value="2.089454277512341" />
+      <entry key="S30" value="5.5257836179427455" />
+      <entry key="S60" value="8.413100994980258" />
+      <entry key="M2" value="12.689310011915262" />
+      <entry key="M5" value="23.388948076342025" />
+      <entry key="M10" value="40.23482056292229" />
+      <entry key="M15" value="59.4920909998916" />
+      <entry key="M30" value="112.88915573625187" />
+      <entry key="H1" value="202.93589842610587" />
+      <entry key="H2" value="360.3132126468116" />
+      <entry key="H4" value="570.6316739336252" />
+      <entry key="D1" value="956.9248790144545" />
+      <entry key="W1" value="1060.2780612384572" />
     </decayedCancelled>
     <decayedSelected>
       <entry key="MS100" value="0.0" />
-      <entry key="MS500" value="0.0" />
-      <entry key="S2" value="2.648834E-318" />
-      <entry key="S5" value="1.5254813516428933E-127" />
-      <entry key="S10" value="6.538562013848917E-64" />
-      <entry key="S30" value="1.791328398867882E-21" />
-      <entry key="S60" value="7.326268536200358E-11" />
-      <entry key="M2" value="1.5078017552974714E-5" />
-      <entry key="M5" value="0.029444820618338627" />
-      <entry key="M10" value="0.4918775663356445" />
-      <entry key="M15" value="1.3960221742968428" />
-      <entry key="M30" value="5.3363915229280545" />
-      <entry key="H1" value="16.04415601524323" />
-      <entry key="H2" value="35.976231265147405" />
-      <entry key="H4" value="59.81223761998226" />
-      <entry key="D1" value="97.93554095803266" />
-      <entry key="W1" value="107.32681146661069" />
+      <entry key="MS500" value="1.2271623894485097E-65" />
+      <entry key="S2" value="5.963452695310065E-17" />
+      <entry key="S5" value="3.726739073337295E-7" />
+      <entry key="S10" value="8.467525760937482E-4" />
+      <entry key="S30" value="0.18405611258109514" />
+      <entry key="S60" value="0.8019452896261837" />
+      <entry key="M2" value="2.197189784712553" />
+      <entry key="M5" value="5.744806826407638" />
+      <entry key="M10" value="9.883850900970465" />
+      <entry key="M15" value="13.521342548008969" />
+      <entry key="M30" value="22.3613839480859" />
+      <entry key="H1" value="36.0322727058949" />
+      <entry key="H2" value="58.343879082593936" />
+      <entry key="H4" value="86.4275857784169" />
+      <entry key="D1" value="135.12059471609692" />
+      <entry key="W1" value="147.73050841481358" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="2.7850676656943925E-4" />
-      <entry key="MS500" value="0.19452129413885466" />
-      <entry key="S2" value="0.6641127032353682" />
-      <entry key="S5" value="0.84897854487163" />
-      <entry key="S10" value="0.921400317381989" />
-      <entry key="S30" value="0.9730820300704437" />
-      <entry key="S60" value="0.9864492045219919" />
-      <entry key="M2" value="0.9933457233143016" />
-      <entry key="M5" value="1.2078619216783533" />
-      <entry key="M10" value="4.317211937024649" />
-      <entry key="M15" value="10.349577601760533" />
-      <entry key="M30" value="38.94440972136644" />
-      <entry key="H1" value="123.62291704170988" />
-      <entry key="H2" value="289.4284479649886" />
-      <entry key="H4" value="497.70454571976234" />
-      <entry key="D1" value="847.4959993137883" />
-      <entry key="W1" value="936.1224143812804" />
+      <entry key="MS100" value="1.179121495269587E-4" />
+      <entry key="MS500" value="0.16379917548514777" />
+      <entry key="S2" value="0.6382723416065607" />
+      <entry key="S5" value="1.0148243283838934" />
+      <entry key="S10" value="1.9140443339128876" />
+      <entry key="S30" value="5.559747730690221" />
+      <entry key="S60" value="9.097944970973435" />
+      <entry key="M2" value="14.78326894148833" />
+      <entry key="M5" value="29.038757177223538" />
+      <entry key="M10" value="50.034357174093955" />
+      <entry key="M15" value="72.93264673383398" />
+      <entry key="M30" value="135.17890030797494" />
+      <entry key="H1" value="238.90861842809016" />
+      <entry key="H2" value="418.6077960060256" />
+      <entry key="H4" value="657.0220413525609" />
+      <entry key="D1" value="1092.0355793449446" />
+      <entry key="W1" value="1208.0070187211857" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -147,7 +145,7 @@
       <updated>1780129584747</updated>
       <workItem from="1780129585696" duration="12715000" />
       <workItem from="1780203801479" duration="10253000" />
-      <workItem from="1780226466041" duration="339000" />
+      <workItem from="1780226466041" duration="4257000" />
     </task>
     <task id="LOCAL-00001" summary="Added Authentication">
       <option name="closed" value="true" />
@@ -157,7 +155,15 @@
       <option name="project" value="LOCAL" />
       <updated>1780203982299</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Cloud Storage, PDF-Image conversion, Key Value Storage and Ai Feedback">
+      <option name="closed" value="true" />
+      <created>1780226826565</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1780226826565</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -176,6 +182,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added Authentication" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Authentication" />
+    <MESSAGE value="Cloud Storage, PDF-Image conversion, Key Value Storage and Ai Feedback" />
+    <option name="LAST_COMMIT_MESSAGE" value="Cloud Storage, PDF-Image conversion, Key Value Storage and Ai Feedback" />
   </component>
 </project>

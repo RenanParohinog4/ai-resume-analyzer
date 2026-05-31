@@ -43,7 +43,7 @@ const Upload = () => {
         const data = {
             id: uuid,
             resumePath: uploadedFile.path,
-            imagePath: imageFile.file,
+            imagePath: uploadedImage.path,
             companyName, jobTitle, jobDescription, feedback: ''
         }
         await kv.set(`resume:${uuid}`, JSON.stringify(data));
@@ -61,6 +61,7 @@ const Upload = () => {
         data.feedback = JSON.parse(feedbackText);
         await kv.set(`resume:${uuid}`, JSON.stringify(data));
         setStatusText('Analyzing complete, redirecting ...');
+        navigate(`/resume/${uuid}`);
 
 
     }
