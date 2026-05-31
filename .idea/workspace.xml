@@ -4,8 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="db3f0977-930b-4f4c-8495-ae3362fef6ea" name="Changes" comment="Added resume components page">
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    <list default="true" id="db3f0977-930b-4f4c-8495-ae3362fef6ea" name="Changes" comment="refactor: improve resume upload, storage, and review pages">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/components/ResumeCard.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/ResumeCard.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/routes/home.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/routes/home.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/routes/resume.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/routes/resume.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/routes/upload.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/routes/upload.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,61 +33,61 @@
 }</component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.057913169642623" />
-      <entry key="MS500" value="1.646907454718378" />
-      <entry key="S2" value="3.520946518096283" />
-      <entry key="S5" value="5.9812728568339235" />
-      <entry key="S10" value="7.601045010452896" />
-      <entry key="S30" value="9.090876846856817" />
-      <entry key="S60" value="9.530120262215982" />
-      <entry key="M2" value="9.8129242700031" />
-      <entry key="M5" value="13.450668796840276" />
-      <entry key="M10" value="29.239098814527363" />
-      <entry key="M15" value="48.690634525914106" />
-      <entry key="M30" value="106.74905585110434" />
-      <entry key="H1" value="206.3812042319662" />
-      <entry key="H2" value="373.8674022666367" />
-      <entry key="H4" value="599.2032601972003" />
-      <entry key="D1" value="1025.40957885295" />
-      <entry key="W1" value="1141.8191324446827" />
+      <entry key="MS100" value="1.0528747008549404" />
+      <entry key="MS500" value="2.5127267696931987" />
+      <entry key="S2" value="5.541924258853973" />
+      <entry key="S5" value="7.649126910128298" />
+      <entry key="S10" value="8.697184636620054" />
+      <entry key="S30" value="9.53341961964717" />
+      <entry key="S60" value="9.762474159981549" />
+      <entry key="M2" value="9.914858663199928" />
+      <entry key="M5" value="11.662849749741685" />
+      <entry key="M10" value="17.687734402401347" />
+      <entry key="M15" value="23.96078760601475" />
+      <entry key="M30" value="47.62761767361074" />
+      <entry key="H1" value="117.43850608224501" />
+      <entry key="H2" value="273.63615704520265" />
+      <entry key="H4" value="516.1805850412911" />
+      <entry key="D1" value="1033.8923843935486" />
+      <entry key="W1" value="1185.107376287058" />
     </decayedCancelled>
     <decayedSelected>
       <entry key="MS100" value="0.0" />
       <entry key="MS500" value="0.0" />
-      <entry key="S2" value="3.064625736835888E-157" />
-      <entry key="S5" value="2.4808992128097175E-63" />
-      <entry key="S10" value="5.061250901873847E-32" />
-      <entry key="S30" value="5.7490853478839626E-11" />
-      <entry key="S60" value="1.523802148280712E-5" />
-      <entry key="M2" value="0.009466168104274704" />
-      <entry key="M5" value="0.6518543032814685" />
-      <entry key="M10" value="3.691373280714219" />
-      <entry key="M15" value="7.486631663636634" />
-      <entry key="M30" value="18.183192433431078" />
-      <entry key="H1" value="34.746920481960224" />
-      <entry key="H2" value="59.796844945689415" />
-      <entry key="H4" value="90.90824346858608" />
-      <entry key="D1" value="145.89979561935323" />
-      <entry key="W1" value="160.3833675519367" />
+      <entry key="S2" value="4.5270984939549016E-150" />
+      <entry key="S5" value="2.9315017347234415E-60" />
+      <entry key="S10" value="2.8999026832998627E-30" />
+      <entry key="S30" value="3.539759287986811E-10" />
+      <entry key="S60" value="4.043058385457499E-5" />
+      <entry key="M2" value="0.014121914830555304" />
+      <entry key="M5" value="0.5196493012343449" />
+      <entry key="M10" value="1.9158826251304257" />
+      <entry key="M15" value="3.165636626144024" />
+      <entry key="M30" value="7.423219428830764" />
+      <entry key="H1" value="19.258466799002715" />
+      <entry key="H2" value="43.67839530856327" />
+      <entry key="H4" value="78.65857839346111" />
+      <entry key="D1" value="147.97655136263975" />
+      <entry key="W1" value="167.43819705674494" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="1.03420955145196" />
-      <entry key="MS500" value="1.6362445034072222" />
-      <entry key="S2" value="3.5150997138422104" />
-      <entry key="S5" value="5.977120708322296" />
-      <entry key="S10" value="7.598337797142834" />
-      <entry key="S30" value="9.089775618178397" />
-      <entry key="S60" value="9.529554568518218" />
-      <entry key="M2" value="9.82185731983231" />
-      <entry key="M5" value="14.093145597897713" />
-      <entry key="M10" value="32.90072682867802" />
-      <entry key="M15" value="56.13499084451753" />
-      <entry key="M30" value="124.8771060575193" />
-      <entry key="H1" value="241.07305643901472" />
-      <entry key="H2" value="433.615237146563" />
-      <entry key="H4" value="690.0732525067301" />
-      <entry key="D1" value="1171.298865877764" />
-      <entry key="W1" value="1302.2008419346218" />
+      <entry key="MS100" value="0.22239795188750427" />
+      <entry key="MS500" value="2.2006025192400918" />
+      <entry key="S2" value="5.437987955312113" />
+      <entry key="S5" value="7.600777044377058" />
+      <entry key="S10" value="8.671309264188265" />
+      <entry key="S30" value="9.524339805362947" />
+      <entry key="S60" value="9.757911080563948" />
+      <entry key="M2" value="9.92643009906719" />
+      <entry key="M5" value="12.177366191065271" />
+      <entry key="M10" value="19.594210915323327" />
+      <entry key="M15" value="27.115404513366006" />
+      <entry key="M30" value="55.034507119545694" />
+      <entry key="H1" value="136.67070172920896" />
+      <entry key="H2" value="317.28131519610196" />
+      <entry key="H4" value="594.8075030057114" />
+      <entry key="D1" value="1181.858543495734" />
+      <entry key="W1" value="1352.5438810337905" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -139,7 +143,7 @@
       <updated>1780129584747</updated>
       <workItem from="1780129585696" duration="12715000" />
       <workItem from="1780203801479" duration="10253000" />
-      <workItem from="1780226466041" duration="6340000" />
+      <workItem from="1780226466041" duration="10393000" />
     </task>
     <task id="LOCAL-00001" summary="Added Authentication">
       <option name="closed" value="true" />
@@ -173,7 +177,15 @@
       <option name="project" value="LOCAL" />
       <updated>1780232656430</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="refactor: improve resume upload, storage, and review pages">
+      <option name="closed" value="true" />
+      <created>1780232864933</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1780232864933</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -195,6 +207,7 @@
     <MESSAGE value="Cloud Storage, PDF-Image conversion, Key Value Storage and Ai Feedback" />
     <MESSAGE value="Resume Feedback Page" />
     <MESSAGE value="Added resume components page" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added resume components page" />
+    <MESSAGE value="refactor: improve resume upload, storage, and review pages" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactor: improve resume upload, storage, and review pages" />
   </component>
 </project>

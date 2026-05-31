@@ -59,6 +59,7 @@ const Resume = () => {
                     <img  src="/icons/back.svg" alt="back"  className="w-2.5 h-2.5" />
                     <span className="text-gray-800 text-sm font-semibold">Back to Homepage</span>
                 </Link>
+            </nav>
                 <div className="flex flex-row w-full max-lg:flex-col-reverse">
                     <section className="feedback-section bg-[url('/images/bg-small.svg') bg-cover h-[100vh] sticky top-0 items-center justify-center">
                         { imageUrl && resumeUrl && (
@@ -86,7 +87,6 @@ const Resume = () => {
                         )}
                     </section>
                 </div>
-            </nav>
         </main>
     )
 }
